@@ -1,0 +1,435 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  color: #434455;
+}
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+address {
+  font-style: normal;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+
+  width: 1158px;
+  padding: 0 15px 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/*header*/
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc
+}
+
+.header-container {
+  display: flex;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  padding: 24px 0 24px;
+}
+
+
+
+.header-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  display: flex;
+  align-items: center;
+  margin-right: 76px;
+  padding: 24px 0 24px;
+}
+
+.header-link-logo {
+  color: #2e2f42;
+}
+
+
+.header-list {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  gap: 40px;
+
+}
+
+.header-list-item-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding: 24px 0 24px;
+}
+
+
+.header-list-item-link:hover {
+  color: #404bbf;
+}
+
+.header-list-item-link:focus {
+  color: #404bbf;
+}
+
+.header-list-item-span:active {
+  color: #404bbf;
+}
+
+
+
+.header-address {
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  margin-left: 332px;
+
+}
+
+
+.header-address-list {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  gap: 40px;
+
+}
+
+.header-address-list-item {}
+
+.header-address-list-item-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  padding: 24px 0 24px;
+}
+
+
+
+.header-address-list-item-link:hover {
+  color: #404bbf;
+}
+
+.header-address-list-item-link:focus {
+  color: #404bbf;
+}
+
+/*section-one*/
+.section-one {
+  font-family: "Roboto", sans-serif;
+  background: #2e2f42;
+  padding: 188px 0 188px;
+  box-sizing: border-box;
+}
+
+.section-one-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  max-width: 496px;
+
+  display: block;
+  margin: auto;
+}
+
+
+
+
+
+.section-one-button {
+  font-family: "Roboto", sans-serif;
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  padding: 16px 32px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+
+
+}
+
+
+.section-one-button:hover {
+  background: #404bbf;
+
+
+}
+
+.section-one-button:focus {
+  background-color: #404bbf
+}
+
+/*section-two*/
+.section-two {
+  font-family: "Roboto", sans-serif;
+
+}
+
+.section-two-list {
+  display: flex;
+  gap: 24px;
+
+}
+
+.section-two-list-item {
+  width: calc((100% - 3 * 24px) / 4);
+}
+
+.section-two-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.section-two-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  padding-top: 32px;
+}
+
+
+
+
+/*section-three*/
+.section-three {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4fd;
+
+}
+
+.section-three-list {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: center;
+
+}
+
+.section-three-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px;
+  padding-top: 112px;
+
+}
+
+.section-three-list-item {
+  background-color: #fff;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+
+  width: calc((100% - 72px) / 4)
+}
+
+.section-three-list-img {
+  margin-bottom: 32px;
+}
+
+.info {
+  padding: 32px 0;
+}
+
+.section-three-list-subject {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.section-three-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: center;
+
+}
+
+
+/*section-four*/
+.section-four {
+  font-family: "Roboto", sans-serif;
+
+
+}
+
+.section-four-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+  /* padding-top: 117px; */
+}
+
+.section-four-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+  justify-content: center;
+
+}
+
+.section-four-list-item {
+  background: #fff;
+
+  width: calc((100% - 48px) / 3);
+}
+
+.app {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+
+.section-four-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-top: 32px;
+  margin-bottom: 8px;
+
+}
+
+.section-four-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+
+}
+
+
+/*footer*/
+.footer {
+
+  background: #2e2f42;
+  padding: 100px 0;
+
+}
+
+
+
+.footer-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-link-logo {
+  color: #f4f4fd;
+
+}
+
+
+
+
+.footer-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+
+  max-width: 264px;
+
+}
