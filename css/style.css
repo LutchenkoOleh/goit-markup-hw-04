@@ -132,17 +132,15 @@ address {
 
 
 .header-list-item-link:hover {
-
   color: #404bbf;
 
 }
 
 .header-list-item-link:focus {
   color: #404bbf;
-
 }
 
-.header-list-item-span::after {
+.studio-wrap::after {
   position: absolute;
   content: '';
   border-radius: 2px;
@@ -152,13 +150,12 @@ address {
   left: 0;
 }
 
-.header-list-item-span:active::after {
+.studio-wrap:active::after {
   background-color: #404bbf;
 }
 
 .header-list-item-span:active {
   color: #404bbf;
-
 }
 
 .header-address {
@@ -166,7 +163,6 @@ address {
   display: flex;
   align-items: center;
   margin-left: 332px;
-
 }
 
 
@@ -174,7 +170,6 @@ address {
   font-family: "Roboto", sans-serif;
   display: flex;
   gap: 40px;
-
 }
 
 .header-address-list-item {}
@@ -206,7 +201,7 @@ address {
   padding: 188px 0 188px;
   box-sizing: border-box;
   background-color: #2e2f42;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/b-g-s-two.jpg), url(../images/Dark-bg.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/b-g-s-two.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
