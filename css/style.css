@@ -148,6 +148,7 @@ address {
   height: 4px;
   bottom: -1px;
   left: 0;
+  background-color: #404bbf;
 }
 
 .studio-wrap:active::after {
